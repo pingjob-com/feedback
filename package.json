@@ -1,0 +1,16 @@
+{
+  "name": "happy-tweet-feedback",
+  "version": "1.0.0",
+  "description": "Happy Tweet Feedback System",
+  "main": "backend/src/index.js",
+  "scripts": {
+    "start": "node backend/src/index.js",
+    "build": "cd frontend && npm install && npm run build"
+  },
+  "engines": {
+    "node": "18.x"
+  },
+  "keywords": ["feedback", "system", "suggestions"],
+  "author": "",
+  "license": "MIT"
+}
